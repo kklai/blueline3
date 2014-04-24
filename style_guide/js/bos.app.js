@@ -342,12 +342,12 @@ $(function() {
 
         // enable fastclick
         $(function() {
-            FastClick.attach(document.body);
+            // FastClick.attach(document.body);
         });
 
     } // initCommentControls
 
-    bcom_content.init();
+    // bcom_content.init();
 
     setTimeout(function() {
         bcom_photos.init();

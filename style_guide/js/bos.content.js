@@ -742,23 +742,23 @@ var bcom_content = (function() {
 		module.share();
 	};
 
-	module.init = function() {
+	// module.init = function() {
 
-		module.fetch(template_types, '/assets/templates/', 'mustache', function(template, source) {
-			templates[source] = Hogan.compile(template);
-		});
+	// 	module.fetch(template_types, '/assets/templates/', 'mustache', function(template, source) {
+	// 		templates[source] = Hogan.compile(template);
+	// 	});
 
-		module.fetch(content_types, '/assets/data/', 'json', function(data, source) {
-			content[source] = data;
+	// 	module.fetch(content_types, '/assets/data/', 'json', function(data, source) {
+	// 		content[source] = data;
 
-			module.reindex(source);
-		});
+	// 		module.reindex(source);
+	// 	});
 
-		// when the AJAX requests are done, run the rest of the app
-		var defer = $.when.apply($, requests);
+	// 	// when the AJAX requests are done, run the rest of the app
+	// 	var defer = $.when.apply($, requests);
 
-		defer.done(module.draw);
-	};
+	// 	defer.done(module.draw);
+	// };
 
 	return module;
 
