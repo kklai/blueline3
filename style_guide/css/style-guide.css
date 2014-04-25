@@ -27328,7 +27328,7 @@ i {
 }
 
 .style-page-h {
-  font: normal bold 2.15385em "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+  font: normal bold 30px "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
   color: #fff;
   float: left;
 }
@@ -27516,7 +27516,7 @@ i {
 }
 
 .size-a {
-  font-size: 0.84615em;
+  font-size: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
