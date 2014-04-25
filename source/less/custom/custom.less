@@ -7,11 +7,36 @@
 
 @font-face {
   font-family: 'Apres RE';
-  src: url('.../style_guide/fonts/Apres-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('.../style_guide/fonts/Apres-Regular.ttf'); 
+  text-rendering: optimizeLegibility;
+/* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Turnip';
+  src: url('.../style_guide/fonts/Turnip-Regular.otf');
+  text-rendering: optimizeLegibility;
+ /* IE9 Compat Modes */
 }
 
 @font-family-sans-serif:  "Apres", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:  "Turnip", "Times New Roman", serif;
 
+//images
+@logo-horizontal: 383px;
+@logo-stacked: 320px;
+
+//STYLES//
+
+body {
+
+	p {
+	font-family: @font-family-serif;
+	line-height: 27.94px;
+	font-size: 16px;
+}
+
+}
 a, 
 .link {
 	color: @link-color;
@@ -19,6 +44,10 @@ a,
 a:hover {
 	color: @link-color-hover;
 	text-decoration: none;
+}
+
+i {
+	font-family: @font-family-sans-serif;
 }
 
 li.size-li {
@@ -44,4 +73,19 @@ article {
 h2.style-group-h {
 	font-size: 1em;
 	font-family: @font-family-sans-serif;
+}
+
+.style-example {
+	padding: 0px auto;
+	img{
+		display: block;
+		margin-bottom: 5px;
+	}
+	.horizontal-logo{
+		width: @logo-horizontal;
+	}
+	.stacked-logo{
+		width: @logo-stacked;
+
+	}
 }
