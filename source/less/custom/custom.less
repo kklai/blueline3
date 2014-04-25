@@ -1,9 +1,47 @@
-.unstacked-img {
-	width: 300px;
-} 
+//** VARIABLES **//
 
+@link-color:        #000000; // sea blue
+@link-color-hover:  lighten(@link-color, 10%);
 
-h1.h1 {
-	font-size: 5em;
+//fonts 
+
+@font-face {
+  font-family: 'Apres RE';
+  src: url('.../style_guide/fonts/Apres-Regular.ttf'); /* IE9 Compat Modes */
 }
 
+@font-family-sans-serif:  "Apres", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+a, 
+.link {
+	color: @link-color;
+}
+a:hover {
+	color: @link-color-hover;
+	text-decoration: none;
+}
+
+li.size-li {
+	font-size: 0.8em;
+  	padding: 9px 15px 0 0;
+  	font-family: @font-family-sans-serif;
+}
+
+article {
+	.style-meta-inner{
+		font-family: @font-family-sans-serif;
+		font-size: 0.8em;
+	}
+}
+.style-hgroup {
+	font-family: @font-family-sans-serif;
+	.style-h {
+		margin: 3px 0px 3px 0;
+		font-size: 0.8em;
+	}
+}
+
+h2.style-group-h {
+	font-size: 1em;
+	font-family: @font-family-sans-serif;
+}

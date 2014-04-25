@@ -27512,7 +27512,7 @@ i {
 
 .size-li {
   display: inline-block;
-  padding: 11px 15px 0 0;
+  padding: 7px 15px 0 0;
 }
 
 .size-a {
@@ -27520,7 +27520,7 @@ i {
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
-  padding: 2px 7px;
+  padding: 0px 7px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -27570,16 +27570,16 @@ i {
 }
 
 .all-code-btn {
-  font-size: 0.84615em;
+  font-size: 0.8em;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #989898;
-  padding: 6px 11px;
+  padding: 5px 11px;
   display: block;
   margin-right: 10px;
   position: absolute;
   right: 10px;
-  top: 7px;
+  top: 6px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
