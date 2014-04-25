@@ -27517,11 +27517,11 @@ i {
 }
 
 .size-a {
-  font-size: 15px;
+  font-size: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
-  padding: 0px 7px;
+  padding: 2px 7px 0 7px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
