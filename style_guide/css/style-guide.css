@@ -27636,7 +27636,7 @@ i {
 }
 
 .style-nav-h {
-  font: normal 800 0.92308em Arial, Helvetica, Verdana, sans-serif;
+  font: normal 800 12px Arial, Helvetica, Verdana, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-top: 8px;
@@ -27663,7 +27663,7 @@ i {
 .style-nav-list > li > a {
   color: #999;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 12px;
   text-align: right;
   line-height: 1.5em;
   text-decoration: none;
