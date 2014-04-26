@@ -2,6 +2,8 @@
 
 @link-color:        #000000; // sea blue
 @link-color-hover:  lighten(@link-color, 10%);
+//COLOR VARIABLES//
+@orange: #ce4d28;
 
 //fonts 
 
@@ -23,7 +25,6 @@
 @font-family-serif:  "Turnip", "Times New Roman", serif;
 
 //images
-@logo-horizontal: 383px;
 @logo-stacked: 320px;
 
 //STYLES//
@@ -69,23 +70,60 @@ article {
 		font-size: 0.8em;
 	}
 }
+//H styles//
 
 h2.style-group-h {
 	font-size: 1em;
 	font-family: @font-family-sans-serif;
 }
-
+h4{
+	.style-nav-h{
+		color: #fff;
+	}	
+}
 .style-example {
 	padding: 0px auto;
 	img{
 		display: block;
 		margin-bottom: 5px;
 	}
-	.horizontal-logo{
+	/*.horizontal-logo{
 		width: @logo-horizontal;
-	}
+	}*/
 	.stacked-logo{
 		width: @logo-stacked;
-
 	}
+}
+
+//COLORS//
+.swatch {
+	width: 100%;
+	height: 10%;
+	padding: 7px 0 4px 15px;
+	margin-bottom: 20px;
+	font-family: @font-family-serif;
+	font-color: #fff;
+}
+//THIS IS BAD--COMPRESS//
+.kl-orange{
+		background-color: @orange;		
+		}
+.kl-orange-dark{
+		background-color: #c34528;
+		}
+.kl-orange-light{
+		background-color: #e35a25;
+		}
+.kl-orange-lighter{
+		background-color: lighten(@orange, 35%);
+		}
+.kl-green-light{
+		background-color: #eae34a;
+}
+.kl-blue-light{
+	background-color: #1dacd6;
+}
+
+.kl-blue-med{
+	background-color: #0f9bd1;
 }
