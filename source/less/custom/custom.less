@@ -46,7 +46,6 @@ img {
 	}
 }
 
-body {
 	p {
 	font-family: @font-family-serif;
 	line-height: 27.94px;
@@ -57,6 +56,19 @@ body {
 		  font-size: 24px;
 		  line-height: 33px;
 		}
+	&.editors-note{
+		  background-color: #f3f3f3;
+		  border-top: 4px solid #CA4D1D;
+		  color: #555555;
+		  font-family: @font-family-sans-serif;
+		  line-height: 1.5em;
+		  padding: 18px 24px;
+		  margin: 1.4em 0 1.6em;
+		  :before {
+			  content: "Editor's Note: ";
+			  color: #CA4D1D;
+			  padding-right: 3px;
+	}
 }
 }
 
@@ -75,6 +87,21 @@ blockquote {
   	  font-size: inherit;
 	  line-height: inherit;
   }
+}
+
+[data-pullquote]:before {
+  border-bottom: medium double #DDDDDD;
+  border-top: medium double #DDDDDD;
+  color: #CA4D1D;
+  content: attr(data-pullquote);
+  float: right;
+  font-family: "SalvoSerifCond-Regular", Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-style: italic;
+  line-height: 1.3em;
+  margin: 7px 0 0.5em 35px;
+  padding: 22px 1px 20px;
+  width: 34%;
 }
 
 a, 
@@ -183,8 +210,7 @@ h1 {
 		  position: relative;
 		  vertical-align: text-top;
 		  display: inline-block;
-		}
-	span:before {
+		  :before {
 		  border-color: #0f9bd1 #fff;
 		  border-style: solid;
 		  border-width: 0 16px 16px 0;
@@ -193,7 +219,26 @@ h1 {
 		  right: 0;
 		  top: -1px;
 		}
+		}
 	}
+}
+
+code,
+pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 14px;
+  color: #242424;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+code {
+  padding: 2px 4px;
+  color: #d14;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  white-space: nowrap;
 }
 
 h4, h5, h6 {
