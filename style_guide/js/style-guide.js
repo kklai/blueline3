@@ -89,6 +89,8 @@ $(document).ready(function() {
 	});
 
 });
+
+
 	// var iframeHeight = $('.style-guide-inner').contents().find('.style-bd-inner').height();
 	// $('.style-guide-inner').css('height', iframeHeight + 'px');
 	// $(window).resize(function(){
