@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Boston.com Style Library</title>
+  <title>Knight Lab Style Library</title>
  
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,6 +22,8 @@
 		var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
 	  })();
 	</script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 	<!-- Google Analytics -->
 	<script>
@@ -33,6 +35,7 @@
 	  ga('create', 'UA-15753546-6', 'upstatement-bcom.s3-website-us-east-1.amazonaws.com');
 	  ga('send', 'pageview');
 	</script>
+
 </head>
 
 <body class="style-bd-inner auto" onload="prettyPrint()" id="style-bd-inner">
@@ -150,12 +153,11 @@
 
 				<article class="style-mod" id="diamond">
 					<div class="style-hgroup">
-						<h3 class="style-h">Diamond</h3>
+						<h3 class="style-h">Diamond (No Tagline)</h3>
 						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
 					</div>
 					<div class="inner">
 						<div class="style-example">
-						<h4>Diamond Alone</h4>
 							<img class = "diamond" src = "../img/logo_diamond_256x256_transparent_padded.png">
 							<a href="http://knightlab.com" class="logo diamond" title=""></a>
 						</div>
@@ -205,7 +207,7 @@
 					</div>
 					<div class="inner">
 						<div class="style-example">
-							<h1 class="logo-mark bg-white xl">Timeline<span><em>JS</em></span></h1>
+							<h1 class="logo-mark bg-white">Timeline<span><em>JS</em></span></h1>
 						</div>
 					</div> <!-- /inner -->
 					<section class="style-details">
@@ -258,6 +260,30 @@
 						</article>
 				</article>
 
+			<!--H2 INTRO-->
+			<article class="style-mod" id="h2-intro">
+					<div class="style-hgroup">
+						<h3 class="style-h">H2 Intro</h3>
+						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
+					</div>
+					<div class="inner">
+						<div class="style-example">
+							<h2 class="intro">This is something rather important - possibly a project introduction. It has a subtle gradient in webkit.</h2>
+						</div>
+					</div> <!-- /inner -->
+					<section class="style-details">
+					<article class="style-meta inner">
+							<h4 class="detail-h">Description</h4>
+							<ul class="detail-list">
+								<li><p>Lorum Ipsum</p></li>
+								<li><p>Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumß</p></li>
+							</ul>
+						</article>  <!-- /style-meta -->
+						<article class="code-example inner">
+							<h4 class="detail-h" title="Copy to Clipboard">Code Snip <i class="code-copy">Copy to clipboard</i></h4>
+							<pre class="html-code prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h1"</span><span class="tag">&gt;</span><span class="pln">Headline Level 1</span><span class="tag">&lt;/h1&gt;</span></li><li class="L1"><span class="pln">							</span><span class="tag">&lt;h2</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h2"</span><span class="tag">&gt;</span><span class="pln">Headline Level 2</span><span class="tag">&lt;/h2&gt;</span></li><li class="L2"><span class="pln">							</span><span class="tag">&lt;h3</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h3"</span><span class="tag">&gt;</span><span class="pln">Headline Level 3</span><span class="tag">&lt;/h3&gt;</span></li><li class="L3"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h4"</span><span class="tag">&gt;</span><span class="pln">Headline Level 4</span><span class="tag">&lt;/h4&gt;</span></li><li class="L4"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h5"</span><span class="tag">&gt;</span><span class="pln">Headline Level 5</span><span class="tag">&lt;/h4&gt;</span></li></ol></pre>
+						</article>
+				</article>
 				<!--PARAGRAPH TEXT-->
 
 				<article class="style-mod" id="paragraph-style">
@@ -338,11 +364,38 @@
 					<div class="style-hgroup">
 						<h3 class="style-h">Pull Quote</h3>
 						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
+						<a class="code-btn details-trigger example"><i class="verb">Show Example</i> </a>  
 					</div>
 					<div class="inner">
 						<div class="style-example">
 							<p data-pullquote="This is some content that will show up as a pull quote">Just add a <code>data-pullquote = "content"</code> to any element and that content will show up floated before it.</p>
 							<p>Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumß</p>					
+					</div>
+					</div> <!-- /inner -->
+					<section class="style-details">
+					<article class="style-meta inner">
+							<h4 class="detail-h">Description</h4>
+							<ul class="detail-list">
+								<li><p>Lorum Ipsum</p></li>
+								<li><p>Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumß</p></li>
+							</ul>
+					</article>  <!-- /style-meta -->
+						<article class="code-example inner">
+							<h4 class="detail-h" title="Copy to Clipboard">Code Snip <i class="code-copy">Copy to clipboard</i></h4>
+							<pre class="html-code prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h1"</span><span class="tag">&gt;</span><span class="pln">Headline Level 1</span><span class="tag">&lt;/h1&gt;</span></li><li class="L1"><span class="pln">							</span><span class="tag">&lt;h2</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h2"</span><span class="tag">&gt;</span><span class="pln">Headline Level 2</span><span class="tag">&lt;/h2&gt;</span></li><li class="L2"><span class="pln">							</span><span class="tag">&lt;h3</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h3"</span><span class="tag">&gt;</span><span class="pln">Headline Level 3</span><span class="tag">&lt;/h3&gt;</span></li><li class="L3"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h4"</span><span class="tag">&gt;</span><span class="pln">Headline Level 4</span><span class="tag">&lt;/h4&gt;</span></li><li class="L4"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h5"</span><span class="tag">&gt;</span><span class="pln">Headline Level 5</span><span class="tag">&lt;/h4&gt;</span></li></ol></pre>
+						</article>
+				</article>
+
+		<!--EDITOR'S NOTE-->
+
+				<article class="style-mod" id="editors-note">
+					<div class="style-hgroup">
+						<h3 class="style-h">Editor's Note</h3>
+						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
+					</div>
+					<div class="inner">
+						<div class="style-example">
+							<p class="editors-note"> Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>					
 					</div>
 					</div> <!-- /inner -->
 					<section class="style-details">
@@ -359,16 +412,27 @@
 						</article>
 				</article>
 
-		<!--EDITOR'S NOTE-->
+				<!--LISTS-->
 
-				<article class="style-mod" id="editors-note">
+				<article class="style-mod" id="Lists">
 					<div class="style-hgroup">
-						<h3 class="style-h">Editor's Note</h3>
+						<h3 class="style-h">Lists</h3>
 						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
 					</div>
 					<div class="inner">
 						<div class="style-example">
-							<p class="editors-note">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>					
+						<ul>
+							<li>Lions</li>
+							<li>Tigers</li>
+							<li>Bears</li>
+							<li>Oh, my!</li>
+						</ul>	
+						<ol>
+							<li>Lions</li>
+							<li>Tigers</li>
+							<li>Bears</li>
+							<li>Oh, my!</li>
+						</ol>				
 					</div>
 					</div> <!-- /inner -->
 					<section class="style-details">
@@ -405,82 +469,62 @@
 							<pre class="html-code prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h1"</span><span class="tag">&gt;</span><span class="pln">Headline Level 1</span><span class="tag">&lt;/h1&gt;</span></li><li class="L1"><span class="pln">							</span><span class="tag">&lt;h2</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h2"</span><span class="tag">&gt;</span><span class="pln"></span><span class="tag">&lt;/h2&gt;</span></li><li class="L2"><span class="pln">							</span><span class="tag">&lt;h3</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h3"</span><span class="tag">&gt;</span><span class="pln">Headline Level 3</span><span class="tag">&lt;/h3&gt;</span></li><li class="L3"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h4"</span><span class="tag">&gt;</span><span class="pln">Headline Level 4</span><span class="tag">&lt;/h4&gt;</span></li><li class="L4"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h5"</span><span class="tag">&gt;</span><span class="pln">Headline Level 5</span><span class="tag">&lt;/h4&gt;</span></li></ol></pre>
 						</article>
 				</article>
+		
+				</article> <!-- /style-mod -->
+			</section>
 
-				<article class="style-mod" id="article-text">
-					<div class="style-hgroup">
-						<h3 class="style-h">Article Text</h3>
-						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
-					</div>
-					<div class="inner ">
-						<div class="style-example">
-							<div class="article-txt">
-								<p class="first-p"> <span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="http://upstatement-bcom.s3-website-us-east-1.amazonaws.com/style-guide-inner.html#" class="link">This is a link in article text.</a> Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-								<p>This is article text.  Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<blockquote class="blockquote">
-									<p> This is a block quote. Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-								</blockquote>
-								<p>This is article text.  Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<div class="pq-mod">
-									<p class="pullquote">This is a pullquote. A pullquote is a brief, attention-catching quotation, taken from the main text of an article.</p>
-									<h4 class="pq-credit">Pullquote Credit</h4>
-								</div>
-							</div>
-						</div>
-					</div> <!-- /inner -->
-					<section class="style-details">
-						<article class="style-meta inner">
-							<h4 class="detail-h">Description</h4>
-							<ul class="detail-list">
-								<li><p>Used for cover teases</p></li>
-								<li><p>May appear with an illustration (.illo) or without (.no-illo)</p></li>
-							</ul>
-						</article>  <!-- /style-meta -->
-						<article class="code-example inner">
-							<h4 class="detail-h" title="Copy to Clipboard">Code Snip <i class="code-copy">Copy to clipboard</i></h4>
-							<pre class="html-code prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"article-txt"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">								</span><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"first-p"</span><span class="tag">&gt;</span><span class="pln"> </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"dropcap"</span><span class="tag">&gt;</span><span class="pln">L</span><span class="tag">&lt;/span&gt;</span><span class="pln">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"link"</span><span class="tag">&gt;</span><span class="pln">This is a link in article text.</span><span class="tag">&lt;/a&gt;</span><span class="pln"> Ut enim ad minim veniam, quis nostrud exercitation ullamco.</span><span class="tag">&lt;/p&gt;</span></li><li class="L2"><span class="pln">								</span><span class="tag">&lt;p&gt;</span><span class="pln">This is article text.  Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span class="tag">&lt;/p&gt;</span></li><li class="L3"><span class="pln">								</span><span class="tag">&lt;blockquote</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"blockquote"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">									</span><span class="tag">&lt;p&gt;</span><span class="pln"> This is a block quote. Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span><span class="tag">&lt;/p&gt;</span></li><li class="L5"><span class="pln">								</span><span class="tag">&lt;/blockquote&gt;</span></li><li class="L6"><span class="pln">								</span><span class="tag">&lt;p&gt;</span><span class="pln">This is article text.  Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span class="tag">&lt;/p&gt;</span></li><li class="L7"><span class="pln">								</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pq-mod"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">									</span><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pullquote"</span><span class="tag">&gt;</span><span class="pln">This is a pullquote. A pullquote is a brief, attention-catching quotation, taken from the main text of an article.</span><span class="tag">&lt;/p&gt;</span></li><li class="L9"><span class="pln">									</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pq-credit"</span><span class="tag">&gt;</span><span class="pln">Pullquote Credit</span><span class="tag">&lt;/h4&gt;</span></li><li class="L0"><span class="pln">								</span><span class="tag">&lt;/div&gt;</span></li><li class="L1"><span class="pln">							</span><span class="tag">&lt;/div&gt;</span></li></ol></pre>
-						</article>
-					</section> <!-- /style-details -->
-
-						<!-- ~~~~~~~~~~~~~~~~~~~~~~	-->		
-			<!-- COLORS-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~	-->		
+			<!-- UTILITIES-->
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~	-->
-		<section id="Colors" class="colors">
-			<h2 class="style-group-h">Colors</h2>
-			<article class="style-mod" id="Colors">
+
+			<section id="utilities" class="utilities">
+			<h2 class="style-group-h">Utilities</h2>
+			<!--PRE-HEADING-->
+			<article class="style-mod" id="preheading">
 					<div class="style-hgroup">
-						<h3 class="style-h">Swatches</h3>
+						<h3 class="style-h">Pre-Heading</h3>
 						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
 					</div>
 					<div class="inner">
-						<p>We have a suite of brand colors to use in your designs. To envoke them as background colors you can use the following classes below on any html element. The hex values are also provided.</p>
 						<div class="style-example">
-						<div class="swatch kl-orange-dark">
-						Darker Orange Background (kl-orange-dark or #f7ccb2)
-						</div>
-						<div class="swatch kl-orange">
-						  Orange Background (kl-orange or #f7ccb2)
-						</div>
-						<div class="swatch kl-orange-light">
-						  Light Orange Background (kl-orange-light or #f7ccb2)
-						</div>
-						<div class="swatch kl-orange-lighter">
-						  Lighter Orange Background (kl-orange-lighter or #f7ccb2)
-						</div>
-						
-						<div class="swatch kl-green-light">
-						Light Green Background (kl-green-light or #eae34a)						</div>
-						<div class="swatch kl-blue-light">
-						Light Blue Background (kl-blue-light or #1dacd6)
-						</div>
-						<div class="swatch kl-blue-med">
-						 Medium Blue Background (kl-blue-med or #0f9bd1)
-						</div>
+							<span class="preheading">May 18th, 2012</span>
+							<h2>Sample header</h2>
+							<p>This is article text.  Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 						</div>
 					</div> <!-- /inner -->
 					<section class="style-details">
 					<article class="style-meta inner">
 							<h4 class="detail-h">Description</h4>
-							<li><p class = "description">We have a suite of brand colors to use in your designs. To envoke them as background colors you can use the following classes below on any html element. The hex values are also provided.</p></li>
+							<ul class="detail-list">
+								<li><p>
+								Pre-heading is displayed above H1-3 to provide an intro or additional context to the headline. The most common useage is the date above blog headlines.</p></li>
+							</ul>
+						</article>  <!-- /style-meta -->
+						<article class="code-example inner">
+							<h4 class="detail-h" title="Copy to Clipboard">Code Snip <i class="code-copy">Copy to clipboard</i></h4>
+							<pre class="html-code prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h1"</span><span class="tag">&gt;</span><span class="pln">Headline Level 1</span><span class="tag">&lt;/h1&gt;</span></li><li class="L1"><span class="pln">							</span><span class="tag">&lt;h2</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h2"</span><span class="tag">&gt;</span><span class="pln">Headline Level 2</span><span class="tag">&lt;/h2&gt;</span></li><li class="L2"><span class="pln">							</span><span class="tag">&lt;h3</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h3"</span><span class="tag">&gt;</span><span class="pln">Headline Level 3</span><span class="tag">&lt;/h3&gt;</span></li><li class="L3"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h4"</span><span class="tag">&gt;</span><span class="pln">Headline Level 4</span><span class="tag">&lt;/h4&gt;</span></li><li class="L4"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h5"</span><span class="tag">&gt;</span><span class="pln">Headline Level 5</span><span class="tag">&lt;/h4&gt;</span></li></ol></pre>
+						</article>
+				</article>
+
+				<article class="style-mod" id="byline">
+					<div class="style-hgroup">
+						<h3 class="style-h">Byline</h3>
+						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
+					</div>
+					<div class="inner">
+						<div class="style-example">
+							<h2>Sample header</h2>
+							<p>This is article text.  Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+							<p class="byline">Posted by <a href="#">Jane Doe</a></p>
+						</div>
+					</div> <!-- /inner -->
+					<section class="style-details">
+					<article class="style-meta inner">
+							<h4 class="detail-h">Description</h4>
+							<ul class="detail-list">
+								<li><p>
+								Bylines are used under a block of text to frame the call to action or supporting information. The most common useage of this is to show author name under a blog headline.</p></li>
+							</ul>
 						</article>  <!-- /style-meta -->
 						<article class="code-example inner">
 							<h4 class="detail-h" title="Copy to Clipboard">Code Snip <i class="code-copy">Copy to clipboard</i></h4>
@@ -488,9 +532,255 @@
 						</article>
 				</article>
 			</section>
-				</article> <!-- /style-mod -->
 
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~	-->		
+			<!-- BUTTONS -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~	-->
+
+		<section id="buttons" class="buttons">
+			<h2 class="style-group-h">Buttons</h2>
+			<article class="style-mod" id="buttons">
+				<div class="style-hgroup">
+						<h3 class="style-h">Buttons</h3>
+				</div>
+				<div class="inner">
+				<div class="style-example">							
+				<table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Button</th>
+                <th>class=""</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button type="button" class="btn">Default</button></td>
+                <td><code>btn</code></td>
+                <td>Standard gray button with gradient</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-primary">Primary</button></td>
+                <td><code>btn btn-primary</code></td>
+                <td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-info">Info</button></td>
+                <td><code>btn btn-info</code></td>
+                <td>Used as an alternative to the default styles</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-success">Success</button></td>
+                <td><code>btn btn-success</code></td>
+                <td>Indicates a successful or positive action</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-warning">Warning</button></td>
+                <td><code>btn btn-warning</code></td>
+                <td>Indicates caution should be taken with this action</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-danger">Danger</button></td>
+                <td><code>btn btn-danger</code></td>
+                <td>Indicates a dangerous or potentially negative action</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-inverse">Inverse</button></td>
+                <td><code>btn btn-inverse</code></td>
+                <td>Alternate dark gray button, not tied to a semantic action or use</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-link">Link</button></td>
+                <td><code>btn btn-link</code></td>
+                <td>Deemphasize a button by making it look like a link while maintaining button behavior</td>
+              </tr>
+            </tbody>
+          </table>
+				</div>		
+				</div><!-- /inner -->
+			</article>
+		</section
+
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~	-->		
+			<!-- COLORS-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~	-->
+
+			<section id="colors" class="colors">
+			<h2 class="style-group-h">Colors</h2>
+			<article class="style-mod" id="Lists">
+					<div class="style-hgroup">
+						<h3 class="style-h">Lists</h3>
+						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
+					</div>
+					<div class="inner">
+					<div class="style-example">
+						<div class="color-mod kl-orange-lighter">
+							<div class="color-txt">
+								<i class="color-swatch">Lighter Orange</i>
+								<i class="color-style">kl-orange-lighter or #f7ccb2</i>	
+							</div>
+						</div>
+						<div class="color-mod kl-orange-light">	
+							<div class="color-txt">
+								<i class="color-swatch">Light Orange</i>
+								<i class="color-style">kl-orange-light or #e35a25</i>
+							</div>						
+						</div>
+						<div class="color-mod kl-orange">
+							<div class="color-txt">
+								<i class="color-swatch">Orange</i>
+								<i class="color-style">kl-orange or #ce4d28</i>
+							</div>				
+						</div>
+						<div class="color-mod kl-orange-dark">
+							<div class="color-txt">
+								<i class="color-swatch">Dark Orange</i>
+								<i class="color-style">kl-orange-dark or #c34528</i>	
+							</div>				
+						</div>
+						<div class="color-mod kl-green-light">
+							<div class="color-txt">
+							<i class="color-swatch">Light Green</i>
+								<i class="color-style">kl-green-light or #eae34a</i>
+							</div>	
+											
+						</div>	
+						<div class="color-mod kl-blue-light">
+							<div class="color-txt">
+								<i class="color-swatch">Light Blue</i>
+								<i class="color-style">kl-blue-light or #1dacd6</i>
+							</div>				
+						</div>	
+						<div class="color-mod kl-blue-med">
+							<div class="color-txt">
+								<i class="color-swatch">Medium Blue</i>
+								<i class="color-style">kl-blue-med or #0f9bd1</i>
+							</div>				
+						</div>		
+				
+			
+						</div>
+					</div> <!-- /inner -->
+					<section class="style-details">
+					<article class="style-meta inner">
+							<h4 class="detail-h">Description</h4>
+							<ul class="detail-list">
+								<li><p>Lorum Ipsum</p></li>
+								<li><p>Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumß</p></li>
+							</ul>
+						</article>  <!-- /style-meta -->
+						<article class="code-example inner">
+							<h4 class="detail-h" title="Copy to Clipboard">Code Snip <i class="code-copy">Copy to clipboard</i></h4>
+							<pre class="html-code prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h1"</span><span class="tag">&gt;</span><span class="pln">Headline Level 1</span><span class="tag">&lt;/h1&gt;</span></li><li class="L1"><span class="pln">							</span><span class="tag">&lt;h2</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h2"</span><span class="tag">&gt;</span><span class="pln">Headline Level 2</span><span class="tag">&lt;/h2&gt;</span></li><li class="L2"><span class="pln">							</span><span class="tag">&lt;h3</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h3"</span><span class="tag">&gt;</span><span class="pln">Headline Level 3</span><span class="tag">&lt;/h3&gt;</span></li><li class="L3"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h4"</span><span class="tag">&gt;</span><span class="pln">Headline Level 4</span><span class="tag">&lt;/h4&gt;</span></li><li class="L4"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h5"</span><span class="tag">&gt;</span><span class="pln">Headline Level 5</span><span class="tag">&lt;/h4&gt;</span></li></ol></pre>
+						</article>
+				</article>
 			</section>
+
+		<!--~~~~~~~~~~~~~-->
+		<!--~~~~~LAYOUT~~~-->
+		<!--~~~~~~~~~~~~~-->
+
+			<section id="accordion" class="accordion">
+			<h2 class="style-group-h">Accordion</h2>
+			<article class="style-mod" id="accordion">
+					<div class="style-hgroup">
+						<h3 class="style-h">Accordion</h3>
+						<a class="code-btn details-trigger"><i class="verb">Show</i> Code</a>
+					</div>
+					<div class="inner">
+					<div class="style-example">
+						<p>Using standard Bootstrap accordion functionality, blueline will change the styling to add icons and shading as shown below.</p>
+					          <div id="accordion2" class="accordion">
+					            <div class="accordion-group">
+					              <div class="accordion-heading">
+					                <a href="#collapseOne" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle collapsed">Collapsible Group Item #1</a>
+					              </div>
+					              <div class="accordion-body collapse" id="collapseOne" style="height: 0px;">
+					                <div class="accordion-inner">
+					                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					                </div>
+					              </div>
+					            </div>
+					            <div class="accordion-group">
+					              <div class="accordion-heading">
+					                <a href="#collapseTwo" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle collapsed">Collapsible Group Item #2</a>
+					              </div>
+					              <div class="accordion-body collapse" id="collapseTwo" style="height: 0px;">
+					                <div class="accordion-inner">
+					                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					                </div>
+					              </div>
+					            </div>
+					            <div class="accordion-group">
+					              <div class="accordion-heading">
+					                <a href="#collapseThree" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle collapsed">Collapsible Group Item #3</a>
+					              </div>
+					              <div class="accordion-body collapse" id="collapseThree" style="height: 0px;">
+					                <div class="accordion-inner">
+					                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					                </div>
+					              </div>
+					            </div>
+					          </div>
+					</div>
+					</div> <!-- /inner -->
+					<section class="style-details">
+					<article class="style-meta inner">
+							<h4 class="detail-h">Description</h4>
+							<ul class="detail-list">
+								<li><p>Lorum Ipsum</p></li>
+								<li><p>Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumß</p></li>
+							</ul>
+						</article>  <!-- /style-meta -->
+						<!--<article class="code-example inner">
+							<h4 class="detail-h" title="Copy to Clipboard">Code Snip <i class="code-copy">Copy to clipboard</i></h4>
+							<pre class="html-code prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h1"</span><span class="tag">&gt;</span><span class="pln">Headline Level 1</span><span class="tag">&lt;/h1&gt;</span></li><li class="L1"><span class="pln">							</span><span class="tag">&lt;h2</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h2"</span><span class="tag">&gt;</span><span class="pln">Headline Level 2</span><span class="tag">&lt;/h2&gt;</span></li><li class="L2"><span class="pln">							</span><span class="tag">&lt;h3</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h3"</span><span class="tag">&gt;</span><span class="pln">Headline Level 3</span><span class="tag">&lt;/h3&gt;</span></li><li class="L3"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h4"</span><span class="tag">&gt;</span><span class="pln">Headline Level 4</span><span class="tag">&lt;/h4&gt;</span></li><li class="L4"><span class="pln">							</span><span class="tag">&lt;h4</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h5"</span><span class="tag">&gt;</span><span class="pln">Headline Level 5</span><span class="tag">&lt;/h4&gt;</span></li></ol></pre>
+						</article>-->
+				</article>
+			</section>
+
+		<!--~~~~~~~~~~~~~-->
+		<!--~~~~~LAYOUT~~~-->
+		<!--~~~~~~~~~~~~~-->
+
+		<section id="layout" class="layout">
+			<h2 class="style-group-h">Layout</h2>
+			<article class="style-mod" id="layout">
+					<div class="style-hgroup">
+						<h3 class="style-h">Project page - epic</h3>
+					</div>
+					<div class="inner">
+					<div class="style-example">							
+					<p> <a href="http://blueline.knightlab.com/examples/static-home.html" target ="_blank">This is for large and in charge designs</a> - Project homepages that have long taglines and extensive walkthroughs below the intro header. One thing to note is that the hero-unit block is outside of the main content div. This allows that block to span the entire width of the window.</p>
+					<img src = "../img/static-epic.jpg">				
+					</div>		
+					</div><!-- /inner -->
+			</article>
+			<article class="style-mod" id="layout">
+					<div class="style-hgroup">
+						<h3 class="style-h">Project Page - Compact</h3>
+					</div>
+					<div class="inner">
+					<div class="style-example">							
+					<p><a href="http://blueline.knightlab.com/examples/static-home-compact.html" target="_blank">This is for projects that don't have much instruction or instructional steps</a>. The compact header is good for shorter taglines and logo-marks that don't have the blue superscript icons as well. In this version the hero-unit is inside the main content block and has a compact class on it.</p>
+					<img src = "../img/project-page-compact.jpg">				
+					</div>		
+					</div><!-- /inner -->
+			</article>
+			<article class="style-mod" id="layout">
+					<div class="style-hgroup">
+						<h3 class="style-h">Generic Interior Page</h3>
+					</div>
+					<div class="inner">
+					<div class="style-example">							
+					<p><a href="http://blueline.knightlab.com/examples/static.html" target="_blank">This is a generic interior page.</a></p>
+					<img src = "../img/generic-interior-page.jpg">				
+					</div>		
+					</div><!-- /inner -->
+			</article>
+		</section>
+
+
 
 		<!-- 	<div class="container-width">
 				<iframe class="query-sim" src="style-input.php" onload="resbook.changeUrl(this.contentWindow.location,this.contentDocument.title);">
@@ -506,7 +796,8 @@
 	<!-- TODO: This is super-bad. Replace this double-call of jQuery PLEASE -->
     <script src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/prettify.js"></script>
-
+	<script src="js/collapse.js"></script>
+	<script src="js/transition.js"></script>
 	<script src="js/hogan-2.0.0.min.js"></script>
     <script src="js/lodash.min.js"></script>
     <script src="js/jquery.magnific-popup.js"></script>
